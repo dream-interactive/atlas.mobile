@@ -16,8 +16,8 @@ https://docs.nativescript.org/angular/ui/professional-ui-components/ng-SideDrawe
         <GridLayout
           columns="auto, *"
           class="nt-drawer__list-item"
-          [class.-selected]="isComponentSelected('/home')"
-          (tap)="onNavItemTap('/home')"
+          [class.-selected]="isComponentSelected('/organization')"
+          (tap)="onNavItemTap('/organization')"
         >
           <Label col="0" text="&#xf015;" class="nt-icon fas"></Label>
           <Label col="1" text="Organization" class="p-r-10"></Label>
@@ -26,31 +26,31 @@ https://docs.nativescript.org/angular/ui/professional-ui-components/ng-SideDrawe
         <GridLayout
           columns="auto, *"
           class="nt-drawer__list-item"
-          [class.-selected]="isComponentSelected('/browse')"
-          (tap)="onNavItemTap('/browse')"
+          [class.-selected]="isComponentSelected('/dashboards')"
+          (tap)="onNavItemTap('/dashboards')"
         >
           <Label col="0" text="&#xf1ea;" class="nt-icon far"></Label>
-          <Label col="1" text="Browse" class="p-r-10"></Label>
+          <Label col="1" text="Dashboards" class="p-r-10"></Label>
         </GridLayout>
 
         <GridLayout
           columns="auto, *"
           class="nt-drawer__list-item"
-          [class.-selected]="isComponentSelected('/search')"
-          (tap)="onNavItemTap('/search')"
+          [class.-selected]="isComponentSelected('/task')"
+          (tap)="onNavItemTap('/task')"
         >
           <Label col="0" text="&#xf002;" class="nt-icon fas"></Label>
-          <Label col="1" text="Search" class="p-r-10"></Label>
+          <Label col="1" text="Tasks" class="p-r-10"></Label>
         </GridLayout>
 
         <GridLayout
           columns="auto, *"
           class="nt-drawer__list-item"
-          [class.-selected]="isComponentSelected('/featured')"
-          (tap)="onNavItemTap('/featured')"
+          [class.-selected]="isComponentSelected('/project')"
+          (tap)="onNavItemTap('/project')"
         >
           <Label col="0" text="&#xf005;" class="nt-icon fas"></Label>
-          <Label col="1" text="Featured" class="p-r-10"></Label>
+          <Label col="1" text="Projects" class="p-r-10"></Label>
         </GridLayout>
 
         <StackLayout class="hr"></StackLayout>

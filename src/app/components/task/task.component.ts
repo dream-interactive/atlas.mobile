@@ -3,10 +3,10 @@ import { RadSideDrawer } from 'nativescript-ui-sidedrawer'
 import { Application } from '@nativescript/core'
 
 @Component({
-  selector: 'Home',
-  templateUrl: './home.component.html',
+  selector: 'Search',
+  templateUrl: './task.component.html',
 })
-export class HomeComponent implements OnInit {
+export class TaskComponent implements OnInit {
   constructor() {
     // Use the component constructor to inject providers.
   }

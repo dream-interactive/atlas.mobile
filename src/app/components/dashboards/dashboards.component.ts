@@ -4,9 +4,9 @@ import { Application } from '@nativescript/core'
 
 @Component({
   selector: 'Browse',
-  templateUrl: './browse.component.html',
+  templateUrl: './dashboards.component.html',
 })
-export class BrowseComponent implements OnInit {
+export class DashboardsComponent implements OnInit {
   constructor() {
     // Use the component constructor to inject providers.
   }

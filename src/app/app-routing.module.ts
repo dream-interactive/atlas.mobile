@@ -3,26 +3,26 @@ import { Routes } from '@angular/router'
 import { NativeScriptRouterModule } from '@nativescript/angular'
 
 const routes: Routes = [
-  { path: '', redirectTo: '/home', pathMatch: 'full' },
+  { path: '', redirectTo: '/organization', pathMatch: 'full' },
   {
-    path: 'home',
-    loadChildren: () => import('~/app/home/home.module').then((m) => m.HomeModule),
+    path: 'organization',
+    loadChildren: () => import('~/app/components/organization/organization.module').then((m) => m.OrganizationModule),
   },
   {
-    path: 'browse',
-    loadChildren: () => import('~/app/browse/browse.module').then((m) => m.BrowseModule),
+    path: 'dashboards',
+    loadChildren: () => import('~/app/components/dashboards/dashboards.module').then((m) => m.DashboardsModule),
   },
   {
-    path: 'search',
-    loadChildren: () => import('~/app/search/search.module').then((m) => m.SearchModule),
+    path: 'task',
+    loadChildren: () => import('~/app/components/task/task.module.ts').then((m) => m.TaskModule),
   },
   {
-    path: 'featured',
-    loadChildren: () => import('~/app/featured/featured.module').then((m) => m.FeaturedModule),
+    path: 'project',
+    loadChildren: () => import('~/app/components/project/project.module').then((m) => m.ProjectModule),
   },
   {
     path: 'settings',
-    loadChildren: () => import('~/app/settings/settings.module').then((m) => m.SettingsModule),
+    loadChildren: () => import('~/app/components/settings/settings.module').then((m) => m.SettingsModule),
   },
 ]
 
