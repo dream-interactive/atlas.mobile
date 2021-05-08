@@ -51,6 +51,8 @@
     "@nativescript/core": "~8.0.0",
     "@nativescript/schematics": "^11.0.0",
     "@nativescript/theme": "~3.0.1",
+    "@okta/okta-angular": "^3.1.0",
+    "@okta/okta-signin-widget": "^5.6.1",
     "nativescript-ui-sidedrawer": "~9.0.3",
     "reflect-metadata": "~0.1.13",
     "rxjs": "~6.6.7",

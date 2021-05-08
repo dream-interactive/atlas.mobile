@@ -3,7 +3,8 @@ import { RadSideDrawer } from 'nativescript-ui-sidedrawer'
 import { Application } from '@nativescript/core'
 
 @Component({
-  selector: 'Home',
+  moduleId: module.id,
+  selector: 'Organization',
   templateUrl: './organization.component.html',
 })
 export class OrganizationComponent implements OnInit {
